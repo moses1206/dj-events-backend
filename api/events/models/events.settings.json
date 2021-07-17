@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "events",
   "info": {
-    "name": "events"
+    "name": "events",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,8 +16,7 @@
       "type": "string"
     },
     "slug": {
-      "type": "uid",
-      "targetField": "name"
+      "type": "uid"
     },
     "venue": {
       "type": "string"
